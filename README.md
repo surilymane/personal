@@ -1,2 +1,2 @@
 # personal-
-personal trial codes
+personal codes written for practice
