@@ -2,7 +2,7 @@
 
 int main()
 {
-    int number, no_of_digits, digit, i;
+    int number, no_of_digits, digit, i, j;
     int sum = 0;
     printf("Please enter the number: ");
     scanf("%d",&number);
@@ -10,14 +10,16 @@ int main()
     scanf("%d",&no_of_digits);
     
     i = 1;
+    j = 1;
     
     while(i <= no_of_digits)
     {
         printf("\nPlease enter the %d digit: ",i);
         scanf("%d",&digit);
-        while(i < no_of_digits)
+        while(j < no_of_digits)
             {
                 digit = digit * digit;
+                j++;
             }
         sum += digit;
         //printf("%d",&sum);
