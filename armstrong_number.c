@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main()
 {
@@ -16,7 +15,11 @@ int main()
     {
         printf("\nPlease enter the %d digit: ",i);
         scanf("%d",&digit);
-        sum += (int)pow(digit, no_of_digits);
+        while(i < no_of_digits)
+            {
+                digit = digit * digit;
+            }
+        sum += digit;
         //printf("%d",&sum);
         i++;
     }
