@@ -13,7 +13,7 @@ int main()
     
     printf("The fibonacci sequence is: %d %d %d ",f_1, f_2,f_next);
     
-    while(i < n)
+    while(i < (n-3))
     {
         f_1 = f_2;
         f_2 = f_next;
