@@ -2,7 +2,7 @@
 
 int main()
 {
-      int number, addition = 0, remainder, new_number;
+      int number, addition = 0, remainder;
 
       printf("Please enter the number: ");
       scanf("%d",&number);
